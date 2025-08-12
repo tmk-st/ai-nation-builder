@@ -6,7 +6,7 @@
 Google Cloudの**Vertex AI**が生み出す多様な市民の声やリアルな政策シナリオで、遊びながら政治・社会を学べます。
 
 詳細は以下の記事にて解説しています。  
-👉 **[Zennはこちら](https://example.com/blog/my-nation-simulator)**
+👉 **[Zennはこちら](https://zenn.dev/tmkst/articles/4515c6dc4ed28b)**
 
 ## 📚 特徴
 - **対話型学習**：AIとの会話で政策を決定し、国の方向性を決める
