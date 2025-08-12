@@ -1,0 +1,31 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "npm run build && functions-framework --target=api --source=lib --port=8080",
+    "start": "functions-framework --target=api --source=lib --port=8080",
+    "deploy": "npm run build && gcloud functions deploy ai-nation-api --runtime=nodejs18 --trigger-http --gen2 --source=."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/aiplatform": "^5.3.0",
+    "@google-cloud/functions-framework": "^4.0.0",
+    "@google-cloud/vertexai": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  }
+}
